@@ -1,0 +1,21 @@
+studentId,Name,Age,Course,City,Fee,Marks
+101,  srinivas  ,25,ML,Bangalore,20k,85
+102,Vas,30 ,DevOps,Chennai,25000,90
+103,Hello,,Java,Bangalore,15000,
+104,Manish,40,Python,Mumbai,18000,78%
+105,Amit,45,DL,,22000,88.5
+106,Hai,30,ML,hyderabad,21000, 72 
+107,Hello,35,DL,Pune,17000,sixty
+108,Vas,28, ai ,Chennai,24000,95
+109,RAJ,32,ML,Mumbai,19000,65/100
+110,Ok,26,,Delhi,16000,68
+111,Alok,38 years,Python,BANGALORE ,23000,"88,5"
+112,Super,29,DevOps,Pune,,
+104,Manish,40,Python,Mumbai,18000,78%
+108,Vas,28,AI,Chennai,24500,96
+113,Siri,27,ML,Bangalore,20000,NA
+114,Kiran,,,,,absent
+101,  srinivas  ,25,ML,Bangalore,20k,85
+109,RAJ,32,ML,Mumbai,19000,65/100
+115,Hello,35,DL,Pune,17100,sixty
+108,Vas,28,AI ,Chennai,25000,92
