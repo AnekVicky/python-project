@@ -13,6 +13,9 @@ async def main():
     async with asyncio.TaskGroup() as tg:
         tasks = [tg.create_task(download_file(str(i))) for i in range(1,5)]
 
+        ## Here we dont to do await , as soon as control comes out of the async with block, 
+        # it will wait for all the tasks to complete and then return the result.
+
     return [task.result() for task in tasks]
 
 if __name__ == '__main__':
