@@ -1,6 +1,21 @@
 import asyncio
 import time
 
+# https://lucid.app/lucidchart/580760be-b7bc-40bc-80a3-cba7b3352190/edit?page=page1&invitationId=inv_0c0e6f42-cee2-4ca6-aa85-d2e3c87c5ed8#
+
+"""
+  Important Concept : 
+  --------------------------------------------------------------
+  |task 2 coroutine -> |task 1 coroutine -> | main coroutine |          FIFO
+  --------------------------------------------------------------
+
+ 
+  once task1 is done means await task1 is done then control goes to event loop and since task2 is already scheduled & in ready status
+  event loop will pick task2 and run it. So task2 will be executed after task1 is done NOT main coroutine. 
+  So main coroutine will be in waiting state until task2 is done.
+
+"""
+
 
 async def fetch_data(param: int) -> str:
     print(f"Do something with {param}...")

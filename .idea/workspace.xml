@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc5af2ea-a3f2-4ba9-af16-4285c0dac12e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/python-core/async-io/6_task_2_asyncio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-core/async-io/7_time_asyncio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-core/async-io/5_task_2_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-core/async-io/5_task_2_asyncio.py" afterDir="false" />
-    </list>
+    <list default="true" id="fc5af2ea-a3f2-4ba9-af16-4285c0dac12e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/anekkumarsingh/PycharmProjects/my-app/pythonProject/python-core/async-io",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
