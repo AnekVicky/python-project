@@ -6,9 +6,9 @@ import time
 """
   Important Concept : 
   --------------------------------------------------------------
-  |task 2 coroutine -> |task 1 coroutine -> | main coroutine |          FIFO
+  |task 2 coroutine -> |task 1 coroutine -> | main coroutine |          FIFO this FIFO is ready queue of FIFO NOT the coroutine execution order.
   --------------------------------------------------------------
-
+see the program print statement after run .
  
   once task1 is done means await task1 is done then control goes to event loop and since task2 is already scheduled & in ready status
   event loop will pick task2 and run it. So task2 will be executed after task1 is done NOT main coroutine. 
