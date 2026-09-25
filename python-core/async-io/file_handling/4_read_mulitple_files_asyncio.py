@@ -3,6 +3,41 @@ import os,threading
 
 
 """
+await read_file(file1)
+       │
+       ▼
+   asyncio_0
+       │
+       ▼
+   read_file(file1)
+       │
+       ▼
+     DONE
+       │
+       ▼
+await read_file(file2)
+       │
+       ▼
+   asyncio_0
+       │
+       ▼
+   read_file(file2)
+       │
+       ▼
+     DONE
+       │
+       ▼
+await read_file(file3)
+       │
+       ▼
+   asyncio_0
+       │
+       ▼
+   read_file(file3)
+       │
+       ▼
+     DONE
+     
 What is the problem with the code ?
 Here asyncio.to_thread is being awaited sequentially  ,hence in o/p ,you will see one thread running at a time .
 
